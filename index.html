@@ -34,7 +34,7 @@
     <header class="lg:mx-28">
         <div class="navbar bg-base-100 flex justify-between lg:border-0 border border-grin">
             <div class="navbar-start">
-              <div>
+              <div class="">
                 <img src="c2-assets/logo-header.png" alt="">
               </div>
            
@@ -53,16 +53,15 @@
                 <i class="fa-solid fa-magnifying-glass "></i>
                 <i class="fa-solid fa-cart-shopping"></i>
                 <button class="btn btn-outline  text-black">Log in</button>
-                <button class="btn bg-grin text-white">Register</button>
+                <button class="btn bg-grin text-white animate-pulse">Register</button>
             </div>
           </div>
     </header>
 
     <main class="mt-20 lg:mb-60 mb-120 relative">
-
       <div class="hero bg-gradient-to-b from-white to-[#EFEBE3]">
         <div class="text-center space-y-5">
-          <h1 class="text-3xl font-bold">Freshness <span class="text-grin">You Can</span> <br>
+          <h1 class="text-3xl font-bold animate-bounce">Freshness <span class="text-grin">You Can</span> <br>
             <span class="text-grin">Count</span> On, Prices You’ll Love!</h1>
             <p class="font-light text-sm">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
             <div class="flex justify-center">
@@ -72,6 +71,70 @@
         </div>
       </div>
       
+      <div class="mt-32 lg:mx-28 mx-5">
+        <h3 class="text-grin text-3xl">Freshness is our promise</h3><br>
+        <div class="carousel w-full bg-[#EFEBE3] lg:h-[550px] rounded-lg">
+          <div id="slide1" class="carousel-item relative w-full">
+        
+            <div class="md:flex lg:p-24 p-4 lg:gap-20">
+              <div class="space-y-7 flex-1">
+              <h1 class="font-bold lg:text-6xl text-4xl">Fresh Harvest, <br> Pure <span class="text-grin">Delight</span></h1>
+              <p>Enjoy farm-fresh, organic vegetables packed with nutrients and flavor, straight from nature to your table."</p>
+              </div>
+              <div class="flex-1 lg:mt-0 mt-8">
+                <img
+              src="c2-assets/woman-holds-basket-vegetables_662214-681752.avif"
+              class="w-full" />
+              </div>
+            </div>
+        
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide3" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+        
+            <div class="md:flex lg:p-24 p-4  lg:gap-20">
+              <div class="space-y-7 flex-1">
+              <h1 class="font-bold lg:text-6xl text-4xl">Fresh from the <span class="text-grin">Farm</span></h1>
+              <p>Bringing you the finest hand-picked vegetables, packed with natural goodness and freshness.</p>
+              </div>
+              <div class="flex-1 lg:mt-0 mt-8">
+                <img
+              src="c2-assets/pngtree-basket-with-fresh-vegetables-on-a-natural-background-image_16098219.jpg"
+              class="w-full" />
+              </div>
+            </div>
+        
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+        
+            <div class="md:flex lg:p-24 p-4 lg:gap-20">
+              <div class="space-y-7 flex-1">
+              <h1 class="font-bold lg:text-6xl text-4xl">Harvested with <span class="text-grin"> Care</span></h1>
+              <p>Fresh, hand-picked vegetables straight from the farm to your table—grown with love, harvested with care.</p>
+              </div>
+              <div class="flex-1 lg:mt-0 mt-8">
+                <img
+              src="c2-assets/basket-vegetables-with-person-holding-basket-vegetables_985955-19757.avif"
+              class="w-full" />
+              </div>
+            </div>
+        
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        
+             </div>
+      </div>
+
       <div class="services mx-4 lg:mx-28 mt-16">
       <h3 class="text-grin text-3xl">Services</h3><br>
 
@@ -425,7 +488,7 @@
 
     </main>
       
-    <footer class="footer bg-grin text-base-content lg:p-10 p-5 pt-8">
+    <footer class="footer bg-grin text-base-content lg:p-10 p-5 pt-12">
         <nav class="mt-60 lg:mx-auto">
           <img src="c2-assets/logo-footer.png" alt="">
           <p class="text-white">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
