@@ -29,7 +29,8 @@
     </style>
     <title>Groceries</title>
 </head>
-<body class="sora">
+<body class="sora my-0 mx-0">
+
     <header class="lg:mx-28">
         <div class="navbar bg-base-100 flex justify-between lg:border-0 border border-grin">
             <div class="navbar-start">
@@ -56,7 +57,8 @@
             </div>
           </div>
     </header>
-    <main class="mt-20 mb-60">
+
+    <main class="mt-20 lg:mb-60 mb-120 relative">
 
       <div class="hero bg-gradient-to-b from-white to-[#EFEBE3]">
         <div class="text-center space-y-5">
@@ -362,7 +364,7 @@
         
       </div>
        
-      <div class="arrival lg:mx-28 mx-5 mb-28">
+      <div class="arrival lg:mx-28 mx-5 lg:mb-28 mb-64">
           <br><br><br>
           <h3 class="text-grin text-3xl">Arrival & Offers</h3><br>
 
@@ -405,9 +407,25 @@
           </div>
           
       </div>
+
+      <div class="lg:mx-28 flex lg:flex-row flex-col bg-[#EFEBE3] rounded-lg lg:p-10 p-5 lg:justify-evenly absolute w-5/6 lg:-mt-12 -mt-52 ml-7">
+
+        <div>
+         <img src="c2-assets/vegetable-busket.png" alt="">
+        </div>
+
+        <div class="lg:space-y-5 space-y-2 text-center lg:text-left">
+         <h1 class="lg:text-3xl text-2xl font-bold text-grin lg:text-black">Get Grocery News!</h1>
+         <p class="text-sm font-light">Exclusive training tips, ticks, product deals and more.</p>
+         <input type="text" placeholder="Enter email..." class="input input-bordered w-full max-w-xs" /><br>
+         <button class="btn bg-grin text-white">Subscribe</button>
+        </div>
+
+      </div>
+
+    </main>
       
-      </main>
-      <footer class="footer bg-grin text-base-content lg:p-10 p-5">
+    <footer class="footer bg-grin text-base-content lg:p-10 p-5 pt-8">
         <nav class="mt-60 lg:mx-auto">
           <img src="c2-assets/logo-footer.png" alt="">
           <p class="text-white">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
@@ -455,6 +473,6 @@
             </a>
           </div>
         </nav>
-      </footer>
+    </footer>
 </body>
 </html>
